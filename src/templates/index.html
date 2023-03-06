@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Page Title{% endblock %}
+
+{% block index %}
+<div class="text-light div_hero my-5" style="background-color: #fff;">
+    <div class="container d-flex flex-row">
+        <div class="hero_section mh-50">
+                <h3 class="hero_title font-weight-bold p-3">Narrative Nexus</h3>
+                <h4 class="hero_subtitle font-weight-bold">Connecting writers and readers through the power of storytelling!</h4>
+                <p class="hero_para">Narrative Nexus is a platform that brings together writers and readers from all
+                    over the world, connecting them through
+                    the power of storytelling. With a focus on creating a community of passionate individuals who share
+                    a love forliterature, Narrative Nexus provides a space for writers to showcase their work and for readers to
+                    discover new and exciting stories.</p>
+
+                <div class="call_for_action my-3 justfy-content-container">
+                    <button class="btn btn-outline-primary btn-lg text-uppercase my-2">Start Publishing</button>
+                    <button class="btn btn-outline-primary btn-lg text-uppercase mx-3 sign_up_btn"
+                    id="sign_up_btn">
+                    Sign Up
+                    </button>
+                </div>
+        </div>
+        <div class="hero_img">
+            <img src="https://img.freepik.com/free-vector/book-lover-concept-illustration_114360-1467.jpg?w=740&t=st=1677952659~exp=1677953259~hmac=057e2ccb8c1bfdc630b126ad326e233a79d68db7bf956d337fdeace5f923eee3"
+                    alt="Book-lover-Reading-Illustration" class="img-fluid">
+        </div>
+    </div>
+</div>
+{% endblock %}

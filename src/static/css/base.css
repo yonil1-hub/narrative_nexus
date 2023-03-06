@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+.profile-header-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-header-img {
+  padding: 10px;
+}
+
+.profile-header-img > img.img-circle {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #51d2b7;
+}
+
+.profile-header {
+  margin-top: 43px;
+}
+
+/**
+ * Ranking component
+ */
+.rank-label-container {
+  margin-top: -19px;
+  /* z-index: 1000; */
+  text-align: center;
+}
+
+.label.label-default.rank-label {
+  background-color: rgb(81, 210, 183);
+  padding: 5px 10px 5px 10px;
+  border-radius: 27px;
+}
+
+.c-rounded-circle {
+  border-radius: 50%;
+  width: 50%;
+}
+.foooter_section {
+  position: fixed;
+  bottom: 5px;
+}
+.foot_container {
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content:space-around;
+}
+
+
+
+.hero_section {
+  width: 40%;
+}
+
+.hero_img {
+  padding-left: 50px;
+  width: 40%;
+}
+
+.hero_para {
+  font-family: Roboto;
+  color: black;
+}
+
+.hero_title {
+  text-align: center;
+}
+.hero_title, .hero_subtitle {
+  font-family: Montserrat;
+  color: black;
+  font-weight: 800;
+}
+

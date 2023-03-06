@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% block signup %}
+<section class="" style="background-color: #e9e3e3;">
+    <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+                <div class="card text-black" style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                <p class="text-center h3 fw-bold mb-5 mx-1 mx-md-4 mt-4 call_signup">SIGN UP</p>
+
+                                <form class="mx-1 mx-md-4">
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <div class="input-group flex-fill mb-0" id="div_fullname">
+                                            <i class="bi bi-person-circle text-primary input-group-text"></i>
+                                            <input type="text" id="fullname" class="form-control"
+                                                placeholder="Full Name(Jane Doe)" />
+                                            <label class="form-label" for="form3Example1c"></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <div class="input-group flex-fill mb-0" id="div_email">
+                                            <i class="bi bi-envelope-at text-primary input-group-text"></i>
+                                            <input type="email" id="email" class="form-control"
+                                                placeholder="Email" />
+                                            <label class="form-label" for="form3Example3c"></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <div class="input-group flex-fill mb-0 div_username">
+                                            <i class="bi bi-person-plus-fill text-info input-group-text"></i>
+                                            <input type="text" id="username" class="form-control"
+                                                placeholder="Username" />
+                                            <label class="form-label" for="form3Example1c"></label>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <div class="input-group flex-fill mb-0">
+                                            <i class="bi bi-key text-primary input-group-text"></i>
+                                            <input type="password" id="form3Example4c" class="form-control"
+                                                placeholder="Password(8-20 chars)" />
+                                            <label class="form-label" for="form3Example4c"></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <div class="input-group flex-fill mb-0">
+                                            <i class="bi bi-key-fill text-primary input-group-text"></i>
+                                            <input type="password" id="form3Example4cd" class="form-control"
+                                                placeholder="Repeat Your Password" />
+                                            <label class="form-label" for="form3Example4cd"></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <div class="input-group form-outline flex-fill mb-0">
+                                            <i class="bi bi-pencil-square text-info input-group-text"></i>
+                                            <textarea class="form-control" placeholder="Short bio" id="bio"></textarea>
+                                            <label for="floatingTextarea"></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check d-flex justify-content-center mb-5">
+                                        <input class="form-check-input me-2" type="checkbox" value=""
+                                            id="form2Example3c" />
+                                        <label class="form-check-label" for="form2Example3">
+                                            I agree all statements in <a href="#!">Terms of service</a>
+                                        </label>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                        <button type="button"
+                                            class="btn btn-outline-primary btn-lg text-uppercase">Register</button>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                                <img src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7875.jpg?w=740&t=st=1678014595~exp=1678015195~hmac=a1aa76e9f1f824ca34ceed181c2bef183ea2a36160c1fe1fc33afbd20fdcffe2"
+                                    class="img-fluid" alt="Sample image">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
